@@ -1,5 +1,52 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background-color: green;
+}
+
+.generated-card {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.palo {
+    font-size: 24px;
+}
+
+.palo-arriba {
+    position: absolute;
+    top: 1px;
+    left: 8px;
+}
+
+.palo-abajo {
+    position: absolute;
+    bottom: 1px;
+    right: 8px;
+    transform: rotate(180deg);
+}
+
+.numero {
+    font-size: 36px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.bubble-log {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
