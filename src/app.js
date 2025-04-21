@@ -113,6 +113,7 @@ drawButton.addEventListener('click', () => {
   bubbleLog.innerHTML = '';
 });
 
+
 sortButton.addEventListener('click', () => {
   const cartasOrdenadas = [...cartasGeneradas];
   selectionSort(cartasOrdenadas);
